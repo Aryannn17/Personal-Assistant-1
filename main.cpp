@@ -57,9 +57,9 @@ int main()
     do
     {
         cout<<"******************************************************"<<endl;
-        cout<<"| ENTER THE PASSWORD TO CONFIRM YOU ARE MASTER ADITYA|"<<endl;
+        cout<<"| ENTER THE PASSWORD TO CONFIRM YOU ARE HARSH|"<<endl;
         cout<<"******************************************************"<<endl<<endl;
-        string phrase = "ENTER THE PASSWORD TO CONFIRM YOU ARE MASTER ADITYA";
+        string phrase = "ENTER THE PASSWORD TO CONFIRM YOU ARE HARSH";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
