@@ -69,7 +69,7 @@ int main()
         STARTUPINFO startInfo = {0};
         PROCESS_INFORMATION processInfo = {0};
 
-        if(password=="aditya")
+        if(password=="IRONMAN")
         {
             cout<<"\n<**************************************************************************************************>\n\n";
             greetings();
