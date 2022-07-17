@@ -1,5 +1,5 @@
 # Personal-Assistant-application
-C++ text to speech application which acts as a personal assistant. 
+C++ text to speech application which acts as a personal assistant and can be used to operate your device using voice.
 
 Firstly one must download and install espeak speech synthesizer. The link is:http://espeak.sourceforge.net/download.html
 Now the espeak.exe application must be placed in the same folder where the c++ application is being stored.
