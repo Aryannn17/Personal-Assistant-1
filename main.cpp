@@ -57,9 +57,9 @@ int main()
     do
     {
         cout<<"******************************************************"<<endl;
-        cout<<"| ENTER THE PASSWORD TO CONFIRM YOU ARE HARSH|"<<endl;
+        cout<<"| ENTER THE PASSWORD TO CONFIRM YOU ARE IRON MAN|"<<endl;
         cout<<"******************************************************"<<endl<<endl;
-        string phrase = "ENTER THE PASSWORD TO CONFIRM YOU ARE HARSH";
+        string phrase = "ENTER THE PASSWORD TO CONFIRM YOU ARE IRON MAN";
         string command = "espeak \"" + phrase + "\"";
         const char *charCommand = command.c_str();
         system(charCommand);
@@ -165,7 +165,7 @@ int main()
 
                 else if(command=="play music")
                 {
-                    cout<<"playing music now"<<endl;
+                    cout<<"playing music "<<endl;
                     string phrase = "playing music now";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
@@ -184,10 +184,10 @@ int main()
                     system("start https://www.google.com");
                 }
 
-                else if(command=="open youtube")
+                else if(command=="open YouTube")
                 {
                     cout<<"openining YouTube"<<endl;
-                    string phrase = "opening youtube";
+                    string phrase = "opening YouTube";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
@@ -216,10 +216,10 @@ int main()
                 }
 
 
-                else if(command=="open oops book")
+                else if(command=="open OOPS book")
                 {
-                    cout<<"opening oops book"<<endl;
-                    string phrase = "opening oops book";
+                    cout<<"opening OOPS book"<<endl;
+                    string phrase = "opening OOPS book";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
@@ -238,8 +238,8 @@ int main()
 
                 else if(command=="bye" || command=="exit")
                 {
-                    cout<<"Good Bye sir, see you soon!"<<endl;
-                    string phrase = "Good Bye sir, see you soon!";
+                    cout<<"Good Bye sir, see you soon!!"<<endl;
+                    string phrase = "Good Bye sir, see you soon!!";
                     string command = "espeak \"" + phrase + "\"";
                     const char *charCommand = command.c_str();
                     system(charCommand);
